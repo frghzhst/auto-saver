@@ -1,2 +1,3 @@
 # auto-saver
-auto save directory of your choice
+auto saves directory of your choice
+self explanitory saving
