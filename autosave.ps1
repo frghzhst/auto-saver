@@ -193,7 +193,7 @@ try {
     log "--program started--"
     prep
     main
-    log "--program ended--"
 } catch {
     log "error: $_"
 }
+log "--program ended--"
