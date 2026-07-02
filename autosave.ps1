@@ -28,7 +28,7 @@ function prep {
             New-Item $script:lfile -ItemType File | Out-Null
             log "[$script:lfile] made"
         } catch {
-            log "error creating file: $_"
+            log "error creating log file: $_"
         }
     }
     if (-not (Test-Path $script:slog)) {
@@ -36,7 +36,7 @@ function prep {
             New-Item $script:slog -ItemType File | Out-Null
             log "[$script:slog] made"
         } catch {
-            log "error creating file: $_"
+            log "error creating save log file: $_"
         }
     }
 }

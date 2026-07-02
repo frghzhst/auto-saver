@@ -75,7 +75,7 @@ function main {
         log "user chose to change target directory"
         $path = getpath -fask
         main
-    }  elseif ($saveconfirm -match '^(r|R)$') {
+    } elseif ($saveconfirm -match '^(r|R)$') {
         log "user chose to restore save"
         $sure = Read-Host "are you sure (y/n)"
         if ($sure -match '^(y|Y)$') {
